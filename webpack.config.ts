@@ -50,7 +50,6 @@ module.exports = {
     watchContentBase: true,
     publicPath: '/',
     contentBase: [path.join(__dirname, 'dist')],
-    hot: true,
   },
   optimization: {
     chunkIds: 'named',

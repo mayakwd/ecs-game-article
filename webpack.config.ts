@@ -8,6 +8,7 @@ module.exports = {
   target: 'web',
   entry: './src/index',
   mode: 'development',
+  devtool: 'inline-source-map',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: `[name].js`,

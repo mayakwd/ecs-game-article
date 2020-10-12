@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "es2015",
+    "outDir": "./dist",
+    "rootDir": "./",
+    "composite": true,
+    "tsBuildInfoFile": "./.tsbuild",
+    "removeComments": true,
+    "importHelpers": true,
+    "downlevelIteration": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "inlineSourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "webpack.config.ts",
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
